@@ -16,7 +16,7 @@ int main()
     printf("Funkce: \n");
     scanf("%d", &fce);
 
-//Pri vyberu funkce zadejte 1 pro prevod stupnu do rad a 2 pro prevodu rad na stupne
+//Pri vyberu funkce zadejte 1 pro prevod stupnu na rad a 2 pro prevodu rad na stupne
     if(fce < 2){
         printf("Zadejte stupne: \n");
         scanf("%d", &degToRad);
